@@ -1,0 +1,87 @@
+body {
+    background-image: url(http://naturesedgelandscaping.com/wp-content/uploads/2012/09/sky_grass.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    background: rgb(88, 164, 224);
+}
+
+div.jumbotron {
+    background: rgba(88, 164, 224, 0.6);
+    color: #fff;
+}
+
+.footer {
+    background: rgb(69, 108, 201);
+}
+
+nav.footer {
+    background: rgba(69, 108, 201, 0.3);
+    color: #ffffff;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.iconic-social-facebook:hover {
+    color: #365899;
+}
+
+.iconic-social-twitter:hover {
+    color: #1DA1F2;
+}
+
+.iconic-social-youtube:hover {
+    color: #CC181E;
+}
+
+.iconic-social-instagram:hover {
+    color: #D23591;
+}
+
+
+/***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+
+.wrapper {
+    margin-top: 50px;
+}
+
+
+/***************************
+    LAYOUT - Min-600px
+***************************/
+
+@media screen and (min-width:600px) {
+    .wrapper {
+        margin-top: 100px;
+    }
+}
+
+
+/***************************
+    LAYOUT - Min-800px
+***************************/
+
+@media screen and (min-width: 800px) {
+    .wrapper {
+        margin-top: 150px;
+    }
+}
+
+
+/***************************
+    LAYOUT - Min-1200px
+***************************/
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        margin-top: 150px;
+    }
+}
