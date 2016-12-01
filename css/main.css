@@ -54,6 +54,10 @@ nav.footer {
     margin-top: 50px;
 }
 
+.display-3 {
+    font-size: 2.5rem;
+}
+
 
 /***************************
     LAYOUT - Min-600px
@@ -62,6 +66,9 @@ nav.footer {
 @media screen and (min-width:600px) {
     .wrapper {
         margin-top: 100px;
+    }
+    .display-3 {
+        font-size: 2.5rem;
     }
 }
 
@@ -73,6 +80,9 @@ nav.footer {
 @media screen and (min-width: 800px) {
     .wrapper {
         margin-top: 150px;
+    }
+    .display-3 {
+        font-size: 3.5rem;
     }
     .icon {
         font-size: 30px;
@@ -95,6 +105,9 @@ nav.footer {
 @media screen and (min-width: 1200px) {
     .wrapper {
         margin-top: 150px;
+    }
+    .display-3 {
+        font-size: 4.5rem;
     }
     .icon {
         font-size: 30px;
