@@ -1,22 +1,53 @@
 body {
-    background-image: url(http://naturesedgelandscaping.com/wp-content/uploads/2012/09/sky_grass.jpg);
+    background-image: url("/img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+   @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+    font-family: 'Open Sans', sans-serif;
 }
 
-.jumbotron,
-.card,
-.footer {
-    background: rgb(88, 164, 224);
+h1, h2, h3, h4, h5, .nav {
+   font-family: 'Merriweather', serif;
+    color: white;
 }
 
-div.jumbotron,
-div.card,
-div.footer {
-    background: rgba(88, 164, 224, 0.6);
+
+.jumbotron {
+    background: rgb(35, 90, 231);
     color: #fff;
 }
+.card,
+.footer {
+    background: #235AE7;
+}
 
+.navbar {
+    background: #235AE7;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+}
+div.jumbotron{
+    background: rgba(35, 90, 231, 0.6);
+}
+
+
+div.card,
+div.footer {
+    background: rgba(35, 90, 231, 0.6);
+    color: white;
+}
+
+.help {
+    margin-bottom: 60px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%
+    
+}
 .icon {
     display: inline-block;
     margin-right: 15px;
@@ -25,14 +56,14 @@ div.footer {
 }
 
 .iconic-social-facebook:hover {
-    color: #365899;
+    color: #262BFF;
 }
 
 .iconic-social-twitter:hover {
     color: #1DA1F2;
 }
 
-.iconic-social-youtube:hover {
+.iconic-social-tumblr:hover {
     color: #CC181E;
 }
 
